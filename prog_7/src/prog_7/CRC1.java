@@ -40,7 +40,8 @@ public class CRC1 {
     	}
 	}
 
-//Display CRC
+//Display CRC 
+    System.out.println();
     System.out.print("The checksum code is: "); // it will only print the data it self eg:000000000001110
     for(int i=0;i<message.length();i++)
     {
